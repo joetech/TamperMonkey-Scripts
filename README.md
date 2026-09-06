@@ -2,6 +2,18 @@
 
 Useful TamperMonkey scripts organized by website.
 
+## GLobal Scripts
+
+### Shipment Tracking Tab Labels
+
+[scripts/global-shipment-tracking-tab-labels.js](scripts/global-shipment-tracking-tab-labels.js)
+
+Adds persistent custom browser-tab labels to individual USPS and UPS tracking pages. The tab title displays the custom label followed by the shipment’s current status:
+
+```text
+Card shipment to Mike — In Transit
+```
+
 ## Site-Specific
 
 ### District
@@ -22,3 +34,4 @@ Replaces relative dates such as `Streamed 3 months ago` with the stream’s exac
 
 ```text
 2026-05-17 8:30 PM
+```
