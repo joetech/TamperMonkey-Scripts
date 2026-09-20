@@ -24,6 +24,12 @@ Card shipment to Mike — In Transit
 
 Displays complete product titles on the District admin product list. Titles wrap onto additional lines instead of being truncated, making the complete title visible and searchable with the browser’s page search.
 
+#### District Order Item eBay Search Links
+
+[scripts/district-admin-order-ebay-links.js](scripts/district-admin-order-ebay-links.js)
+
+Adds eBay search links to the sold items in a District order. Hovering any word in an item's title in the order panel shows a small bubble underneath it that opens an eBay active-listings search for that word in a new tab, making it quick to find and remove the matching listing. Hyphenated words and SKUs such as `pk7-298` are treated as a single word, and a leading `#` is dropped from card numbers, so `#311` searches for `311`.
+
 ### YouTube
 
 #### YouTube Exact Dates
