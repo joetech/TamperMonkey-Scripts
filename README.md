@@ -18,11 +18,12 @@ Card shipment to Mike — In Transit
 
 ### District
 
-#### District Product List Full Title Display
+#### District Product List Tools
 
-[scripts/district-admin-product-list-full-titles.js](scripts/district-admin-product-list-full-titles.js)
+[scripts/district-admin-product-list-full-titles.js](scripts/district-admin-product-list-tools.js)
 
-Displays complete product titles on the District admin product list. Titles wrap onto additional lines instead of being truncated, making the complete title visible and searchable with the browser’s page search.
+- Displays complete product titles on the District admin product list. Titles wrap onto additional lines instead of being truncated, making the complete title visible and searchable with the browser’s page search.
+- Adds an Edit icon before each product title as a quicker link to edit.
 
 #### District Order Item eBay Search Links
 
